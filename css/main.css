@@ -23,6 +23,21 @@ h1{
   color: #000;
 }
 
+.row {
+  display: grid;
+  width: 85vw;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  min-width: 60rem;
+  max-width: 85rem;
+  margin: 0 auto;
+}
+
+em{
+  font-style: normal;
+  color: #1eafde;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
