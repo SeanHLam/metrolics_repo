@@ -25,13 +25,13 @@ h1{
 }
 
 .row {
-  display: grid;
-  width: 85vw;
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr; 
-  min-width: 60rem;
-  max-width: 85rem;
+  display:flex;
   margin: 0 auto;
+  justify-content: center;
+}
+
+.logo{
+
 }
 
 em{
