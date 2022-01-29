@@ -30,8 +30,17 @@ h1{
   justify-content: center;
 }
 
-.logo{
+.nav_menu{
+  display: flex;
+  align-items: center;
+  margin: 2em;
+}
 
+.nav_menu > .column{
+  display: none;
+  height: 10em;
+  width: 10em;
+  background-color: #25c389;
 }
 
 em{
