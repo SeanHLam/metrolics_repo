@@ -12,9 +12,40 @@
    ========================================================================== */
 
 html {
+
   color: #222;
+  font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1em;
   line-height: 1.4;
+  text-align: center;
+}
+
+h1{   
+  color: #000;
+}
+
+.row {
+  display:flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.nav_menu{
+  display: flex;
+  align-items: center;
+  margin: 2em;
+}
+
+.nav_menu > .column{
+  display: none;
+  height: 10em;
+  width: 10em;
+  background-color: #25c389;
+}
+
+em{
+  font-style: normal;
+  color: #1eafde;
 }
 
 /*
