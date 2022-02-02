@@ -291,4 +291,191 @@ textarea {
     page-break-after: avoid;
   }
 }
+/* Thingsofabove */
+.section_heading {
+  font-size: 1.5em;
+  font-weight:lighter;
+  margin-bottom: 0;
+}
+
+.extra_subheading {
+  font-size: .5em;
+  margin-bottom: 3.5em;
+}
+
+.row {
+  display:flex;
+  flex-direction:row;
+}
+
+.column {
+  display:flex;
+  flex-direction:column;
+
+}
+
+.menu_title {
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  background-color:#19b2de;
+  width: 600px;
+  height:40px;
+  padding-left:20px;
+  color:white;
+  border: 2px solid #e6e6e6;
+  margin:5px;
+}
+
+.hidden_content { 
+  display:none;
+}
+
+/* Tab Menus */
+
+.tab_content {
+  display:flex;
+  flex-direction:column;
+}
+
+.tab_icons {
+  width: 30px;
+}
+
+#tab_2, #tab_3 {
+  display:none;
+}
+/* Sponsor section */
+
+.sponsor_container{
+  display:flex;
+  justify-content:center;
+  margin: 3em;
+}
+
+.sponsor_container > div {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color:#f6f6f6;
+  width: 100px;
+  height:70px;
+  margin: 5px;
+}
+
+.sponsor_image {
+  width: 80px;
+}
+
+/*Footer */
+
+
+.page_footer {
+  background-color: #16242f;
+  color:white;
+  padding: 30px;
+}
+
+.staff_name, .footer_content {
+  font-size: 12px;
+  text-align:left;
+}
+
+.staff_content{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width:570px;
+  text-align:left;
+}
+
+.staff_image {
+  width: 60px;
+  border-radius: 50px;
+}
+
+.line {
+  border-bottom: 2px solid #168db7;
+  width: 60em;
+  margin:2em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 40px;
+  
+  justify-items:center;
+  text-align:left;
+  }
+
+.grid_content {
+  width: 300px;
+}
+
+.footer_header {
+  color:white;
+  text-align:left;
+  font-size: 18px;
+}
+
+.social_icons > img {
+  width: 30px;
+}
+
+.grid_content > p {
+  font-size: 12px;
+  color:white;
+}
+
+.minions {
+  width: 80px;
+  margin-bottom: 5px;
+
+}
+
+.tweet_grid {
+  display:grid;
+  grid-template-columns: 0.2fr 0.8fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  justify-items:center;
+}
+
+.twitter {
+  width: 35px;
+
+}
+
+.tweet {
+  font-size: 12px;
+  color:white;
+}
+
+.tweet > strong {
+  color:#1bade6;
+}
+
+
+
+.line_one, .line_two, .line_three, .line_four{
+    width: 20em;
+    margin-top: -0.5em;
+    margin-bottom: 2em;
+}
+
+.line_one {
+  border-bottom: 2px solid #21c183;
+}
+.line_two {
+  border-bottom: 2px solid #f8ba0d;
+}
+.line_three {
+  border-bottom: 2px solid #de6262;
+}
+.line_four {
+  border-bottom: 2px solid #1bade6;
+}
+
 
