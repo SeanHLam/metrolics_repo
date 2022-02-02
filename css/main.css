@@ -91,12 +91,17 @@
   }
 
   .section_heading{
-    font-size: x-large;
-    margin-bottom: 1em;
+    font-size: 1.5em;
   }
 
+
+  .intro_section{
+    font-size: 2em;
+    margin-bottom: 2em;
+  }
   .latest_heading{
     font-weight: 1 ;
+
   }
 
   .tagline{
@@ -122,8 +127,6 @@
   justify-content: center;
  }
 
-
-
  .fa-lightbulb{
   color: #feb902;
 }
@@ -138,7 +141,6 @@
 
 .landscape{
   border: solid #25c389;
-
 }
 
 .fa-cogs{
