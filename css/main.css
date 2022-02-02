@@ -21,7 +21,7 @@
   }
   
   h1{   
-    color: #000;
+    color: #3b3b3b;
   }
   
   ul{
@@ -82,6 +82,97 @@
     color: #1eafde;
   }
   
+  h2{
+    margin-bottom: 0;
+  }
+
+  h4{
+    margin-top: 0;;
+  }
+
+  .section_heading{
+    font-size: x-large;
+    margin-bottom: 1em;
+  }
+
+  .latest_heading{
+    font-weight: 1 ;
+  }
+
+  .tagline{
+    font-size: 1rem;
+    color: #aaaaaa;
+  }
+
+  .about_section{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+
+ .about_icon{
+
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+
+
+ .fa-lightbulb{
+  color: #feb902;
+}
+
+.lightbulb{
+  border: solid #feb902;
+}
+
+.fa-image{
+  color:#25c389;
+}
+
+.landscape{
+  border: solid #25c389;
+
+}
+
+.fa-cogs{
+  color: #e7615e
+}
+
+.cogs{
+  border: solid #e7615e;
+}
+
+.fa-pencil-alt{
+  color: #1fa8d4;
+}
+
+.pencil{
+  border: solid #1fa8d4;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+ 
+.about_heading{
+  margin-bottom:0 ;
+}
+
+.about_text{
+  text-align: left ;
+  color: #aaaaaa;
+}
+
+
 
 /*
  * Remove text-shadow in selection highlight:
