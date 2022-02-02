@@ -90,13 +90,18 @@
     margin-top: 0;;
   }
 
-  .section_heading{
-    font-size: 2rem;
- 
+
+    font-size: 1.5em;
   }
 
-  .latest_heading, .news_heading{
-    font-weight: 1;
+
+  .intro_section{
+    font-size: 2em;
+    margin-bottom: 2em;
+  }
+  .latest_heading{
+    font-weight: 1 ;
+
   }
 
   .tagline{
@@ -138,7 +143,6 @@
 
 .landscape{
   border: solid #25c389;
-
 }
 
 .fa-cogs{
