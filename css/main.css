@@ -260,7 +260,7 @@
 
 
 @media only screen and (max-width: 720px) {
-  .nav_menu > .nav_item{
+  .nav_menu > .nav_item, .contact, .blog, .portfolio{
     display: none;
   }
 
