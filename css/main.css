@@ -14,7 +14,7 @@
    html {
 
     color: #222;
-    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1em;
     line-height: 1.4;
     text-align: center;
@@ -90,9 +90,6 @@
     margin-top: 0;;
   }
 
-
-    font-size: 1.5em;
-  }
 
 
   .intro_section{
@@ -264,9 +261,6 @@
   background-color: #1cb1db;
 }
 
-hr{
- 
-}
 
 .selected_tab{
   border: 0; border-top: 1px solid #1596bd;
