@@ -24,14 +24,15 @@
     color: #3b3b3b;
   }
   
-  ul{
-    padding-left: 0;
+  @media only screen and (max-width: 720px) {
+    .nav_item{ 
+      display: none;
+    }
   }
   
-
   
   .navbar{
-    margin-top: 1em;
+
     display: flex;
     justify-content: center;
   }
@@ -49,9 +50,7 @@
     width:185px;
   }
 
-  .nav_menu{
-    margin: 2em;
-  }
+ 
 
   .hamburger{
     display: flex;
@@ -66,17 +65,85 @@
     color:white
   }
   
-  .nav_menu > .column{ 
-    display: none; 
-    height: 10em;
-    width: 10em;
-    background-color: #25c389;
-  }
+
   
   .hero_banner{
     display: none;
   }
-  
+
+  @media only screen and (min-width: 2048px) {
+
+    .row {
+      align-items: end;
+    }
+
+    .logo{
+      margin-bottom: 1em;
+    }
+
+    .nav_menu{
+      display: flex;
+    }
+
+    .nav_item{
+      text-align: end;
+      display: flex;
+      margin: 0;
+      height: 8em;
+      width: 8em;
+      background-color: #25c389;
+      color: white;
+    }
+
+    .pages{
+      background-color: #ffb901;
+    }
+
+    .blog{
+      background-color: #de6262;
+    }
+
+    .portfolio{
+      background-color: #1691bd;
+    }
+    .contact{
+      background-color: #166ba2;
+    }
+
+    .hamburger{
+      display: none;
+    }
+
+    .hero_banner{
+      display: flex;
+      justify-content: center;
+      background-color: #ebebeb;
+    }
+
+
+    
+    .slide_image{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      background-image: url("../img/hero_tablet.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 60em;
+      height: 24.5em;
+    }
+
+    .slide_text{
+      width:max-content;
+      height: max-content;
+      margin-left: 10em;
+      
+
+    }
+
+ 
+  }
+
   em{
     font-style: normal;
     color: #1eafde;
