@@ -19,6 +19,7 @@
     line-height: 1.4;
     text-align: center;
   }
+
   
   h1{   
     color: #3b3b3b;
@@ -66,8 +67,6 @@
   .hero_banner{
     display: none;
   }
-
-  
 
   em{
     font-style: normal;
@@ -269,16 +268,22 @@
     display: flex;
     margin-top: 1em;
   }
+
+  .tablet_break{
+    display: none;
+  }
 }
 
 @media only screen and (min-width:721px) and (max-width: 1919px) {
 
   .row {
     align-items: end;
+    grid-column-gap: 0;
   }
 
   .logo{
     margin-bottom: 1em;
+    margin-right: 2em;
   }
 
   .nav_menu{
@@ -286,8 +291,10 @@
   }
 
   .nav_item{
-    text-align: end;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     height: 8em;
     width: 8em;
@@ -309,6 +316,24 @@
   .contact{
     background-color: #166ba2;
   }
+
+  .nav_icon{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .2);
+    width: 4em;
+    height: 4em;
+  }
+
+  .nav_text{
+    margin-left: .5em;
+    margin-top: 1em;
+    align-self: flex-start;
+  }
+ 
 
   .hamburger{
     display: none;
@@ -336,6 +361,29 @@
     height: max-content;
     margin-left: 10em;
   }
+
+  .mobile_break{
+    display: none;
+  }
+  
+  .about_info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about_section{
+    flex-direction: column;
+    flex: 50%;
+  }
+
+  .about_text, .about_heading{
+    text-align: center;
+  }
+
+  .about{
+    align-items: center;
+  }
+
 }
 
 @media only screen and (min-width: 1920px) {
