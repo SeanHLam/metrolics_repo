@@ -395,6 +395,18 @@
     flex:40%; 
   }
  
+  .project_desc{
+    display: none ;
+  }
+
+  .project:hover{
+    background-color: #19b2de;
+    background-blend-mode: overlay;
+  }
+
+  .project:hover ~ .project_desc{
+    display: flex;
+  }
 
 
 }
