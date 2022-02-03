@@ -514,6 +514,28 @@
     display: none;
   }
 
+  .about{
+    align-items: center;
+  }
+
+  .latest_posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .blog_entry{
+    margin: 0 1em 1em 1em;
+  }
+
+  .desktop_hide{
+    display: none;
+  }
+
+  .blog_entry{
+    flex:30%;
+  }
 
 }
 
