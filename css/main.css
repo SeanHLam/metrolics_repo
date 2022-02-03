@@ -992,7 +992,7 @@ display:flex;
 }
 
 .staff_name, .footer_content {
-  font-size: 12px;
+  font-size: 13px;
   text-align:left;
 }
 
@@ -1070,6 +1070,7 @@ display:flex;
   grid-template-rows: 0.5fr 0.5fr;
   align-items:center;
   margin:-12px;
+  justify-items:center;
 }
 
 .twitter {
@@ -1153,4 +1154,87 @@ display:flex;
 }
 .square_five{
   background-color:#166ba2;
+}
+
+/* Footer Media Queries */
+
+@media only screen and (max-width:721px) {
+  
+  .footer_content {
+    max-width: 720px;
+  }
+  
+  #about, .line_one, #grid_one > p{
+    display:none;
+  }
+
+  #grid_two, #grid_four {  
+    display: none;
+  }
+
+  .social_icons {
+    display:flex;
+    justify-content:center;
+  }
+
+  .social_icons > img {
+   margin: 3px;
+   width: 3em;
+  }
+
+
+  .staff_image {
+    width: 150px;
+    height: 150px;
+    margin:5px;
+    margin-right:15px;
+  }
+
+  .staff_content{
+    width: 170px;
+  }
+
+  .staff_container {
+    margin-right:0em;
+  }
+
+  .staff_name {
+    margin-top: 0px;
+  }
+
+  .line {
+    justify-content:flex-start;
+    align-content:flex-start;
+    margin-top:2em;
+    margin-bottom:2em;
+    margin-right:0em;
+    margin-left:-11em;
+    width: 28.25em;
+  }
+
+  .line_three {
+    margin-bottom: 1em;
+    width: 18em;
+  }
+
+  .tweet_grid {
+    margin: 0px;
+    width: 360px;
+  }
+
+  .grid{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .squares {
+    margin-right: 0em;
+  }
+
+  .square_one, .square_two, .square_three, .square_four, .square_five {
+    width: 70px;
+    height:20px;
+  }
 }
