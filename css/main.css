@@ -14,7 +14,7 @@
    html {
 
     color: #222;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
     line-height: 1.4;
     text-align: center;
@@ -656,11 +656,22 @@ textarea {
 
 /*Footer */
 
-
+/*Staff Info */
 .page_footer {
   background-color: #16242f;
   color:white;
-  padding: 30px;
+  padding-top: 30px;
+}
+
+.footer_container {
+display:flex;
+}
+
+.staff_container {
+  display:flex;
+  justify-content:center;
+  margin-right: 3em;
+
 }
 
 .staff_name, .footer_content {
@@ -668,38 +679,51 @@ textarea {
   text-align:left;
 }
 
+.staff_name {
+  margin-bottom: -5px;
+}
+
 .staff_content{
   display:flex;
   flex-direction:column;
   justify-content:center;
-  width:570px;
+  width:600px;
   text-align:left;
+  align-content:start;
 }
 
 .staff_image {
   width: 60px;
-  border-radius: 50px;
+  height:60px;
+  border-radius: 10em;
+  margin: 1.5em;
 }
 
 .line {
   border-bottom: 2px solid #168db7;
   width: 60em;
-  margin:2em;
+  margin-top:1em;
+  margin-bottom:1em;
+  margin-left: -6em;
 }
 
+/* Grid */
+.grid_cont {
+  display:flex;
+  justify-content:center;
+}
 .grid {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-columns: 0.25fr 0.25fr;
   grid-template-rows: 0.5fr 0.5fr;
-  grid-column-gap: 0px;
+  grid-column-gap: 30px;
   grid-row-gap: 40px;
-  
   justify-items:center;
   text-align:left;
   }
 
 .grid_content {
-  width: 300px;
+  width: 350px;
 }
 
 .footer_header {
@@ -718,7 +742,7 @@ textarea {
 }
 
 .minions {
-  width: 80px;
+  width: 110px;
   margin-bottom: 5px;
 
 }
@@ -727,12 +751,13 @@ textarea {
   display:grid;
   grid-template-columns: 0.2fr 0.8fr;
   grid-template-rows: 0.5fr 0.5fr;
-  justify-items:center;
+  align-items:center;
+  margin:-12px;
 }
 
 .twitter {
   width: 35px;
-
+  filter:invert(1);
 }
 
 .tweet {
@@ -744,10 +769,8 @@ textarea {
   color:#1bade6;
 }
 
-
-
 .line_one, .line_two, .line_three, .line_four{
-    width: 20em;
+    width: 22em;
     margin-top: -0.5em;
     margin-bottom: 2em;
 }
@@ -765,4 +788,52 @@ textarea {
   border-bottom: 2px solid #1bade6;
 }
 
+.email {
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+}
 
+.email > p {
+  background-color:#de6262;
+  padding: 10px;
+  width:90%;
+  font-size: 12px;
+}
+
+.send{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:10px;
+  background-color:#ffb901;
+}
+
+.squares {
+  display:flex;
+  flex-direction: row;
+  margin-top: 5em;
+  justify-content:center;
+  margin-right: -14.5em;
+}
+
+.square_one, .square_two, .square_three, .square_four, .square_five {
+  width:100px;
+  height:25px;
+}
+.square_one{
+  background-color:#25c389;
+}
+.square_two{
+  background-color:#ffb901;
+}
+.square_three{
+  background-color:#de6262;
+}
+.square_four{
+  background-color:#1691bd;
+}
+.square_five{
+  background-color:#166ba2;
+}
