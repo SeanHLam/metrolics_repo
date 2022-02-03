@@ -68,8 +68,6 @@
     display: none;
   }
 
-  
-
   em{
     font-style: normal;
     color: #1eafde;
@@ -270,6 +268,10 @@
     display: flex;
     margin-top: 1em;
   }
+
+  .tablet_break{
+    display: none;
+  }
 }
 
 @media only screen and (min-width:721px) and (max-width: 1919px) {
@@ -361,10 +363,146 @@
     height: max-content;
     margin-left: 10em;
   }
+
+  .mobile_break{
+    display: none;
+  }
+  
+  .about_info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about_section{
+    flex-direction: column;
+    flex: 50%;
+  }
+
+  .about_text, .about_heading{
+    text-align: center;
+    padding: 0 3em 0 3em;
+  }
+
+  .about{
+    align-items: center;
+  }
+
 }
 
 @media only screen and (min-width: 1920px) {
+  .row {
+    align-items: end;
+    grid-column-gap: 0;
+  }
 
+  .logo{
+    margin-bottom: 1em;
+    margin-right: 2em;
+  }
+
+  .nav_menu{
+    display: flex;
+  }
+
+  .nav_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 8em;
+    width: 8em;
+    background-color: #25c389;
+    color: white;
+  }
+
+  .pages{
+    background-color: #ffb901;
+  }
+
+  .blog{
+    background-color: #de6262;
+  }
+
+  .portfolio{
+    background-color: #1691bd;
+  }
+  .contact{
+    background-color: #166ba2;
+  }
+
+  .nav_icon{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .2);
+    width: 4em;
+    height: 4em;
+  }
+
+  .nav_text{
+    margin-left: .5em;
+    margin-top: 1em;
+    align-self: flex-start;
+  }
+ 
+
+  .hamburger{
+    display: none;
+  }
+
+  .hero_banner{
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+  }
+
+  .slide_image{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("../img/hero_tablet.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60em;
+    height: 24.5em;
+  }
+
+  .slide_text{
+    width:max-content;
+    height: max-content;
+    margin-left: 10em;
+  }
+
+  .mobile_break{
+    display: none;
+  }
+  
+  .about_info{
+    display: flex;
+   
+  }
+
+  .about_section{
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+
+  .about_text, .about_heading{
+    text-align: center;
+    padding: 0 3em 0 3em;
+  }
+
+  .about{
+    align-items: center;
+  }
+
+  .mobile_break, .tablet_break{
+    display: none;
+  }
 }
 
 
